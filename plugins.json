@@ -18,6 +18,22 @@
   {
     "projectUrl": "",
     "provider": "popple-plugins",
+    "name": "Lucid API",
+    "description": "API Plugin for all Lucid Plugins. Used as a wrapper to support multiple client APIs",
+    "id": "lucid-api",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "19b1d3bb6c88587752bf40c3f6f04b45801d013aef1e10c3d8bdfc92e277a9478d5cb56d24f23053fc7c8e5b2599af0e266a1a67deb1ba7fbc072199d2d9970a",
+        "version": "0.0.1",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-api-0.0.1.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
     "name": "Lucid Cannon Reloader",
     "description": "A plugin that will reload your cannon so you don\u0027t have to",
     "id": "lucid-cannon-reloader",
@@ -40,7 +56,7 @@
     "releases": [
       {
         "date": "18-06-2025",
-        "sha512sum": "a5e07d202e99d294493195d8ad325fb73033a0e6e868883a23675ae3cfeffe9820ada78f6efad67202064cd6455d1436c6c1291d2501c8211f0d6f3f8d92bc1d",
+        "sha512sum": "80040e4365ed4d74d89683697eca1b7d8f1e3316e694e88536ad4e3b84f276aa590537d5e94dcc66d876e9777d4dccd946d004815fd735a76b50a4d031c031ce",
         "version": "1.1.6",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-combat-1.1.6.jar?raw\u003dtrue",
         "requires": "^1.0.0"
@@ -98,6 +114,22 @@
   {
     "projectUrl": "",
     "provider": "popple-plugins",
+    "name": "Lucid Gauntlet",
+    "description": "Gauntlet Extended by xKylee updated with auto-features for Hunllef added in.",
+    "id": "lucid-gauntlet",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "a835ff56fae0031fcac49ee6d5333725211404e8f5068a0a7bb52e2bee1c004b3383aa55509a5e590b54b7f2145ad837c1e0ce944d9d67f7849f6e1fbcfafb80",
+        "version": "6.2.6",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-gauntlet-6.2.6.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
     "name": "Lucid Gear Swapper",
     "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
     "id": "lucid-gear-swapper",
@@ -130,6 +162,86 @@
   {
     "projectUrl": "",
     "provider": "popple-plugins",
+    "name": "Lucid Hotkeys 2",
+    "description": "Like Lucid Hotkeys 1, but much better",
+    "id": "lucid-hotkeys2",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "49dcd7e389ca000a5d058c4de7c82ec065c36726aba0d90bf51bc4529f5c9952dee799b2394e2cc0a04c0311ce5ed5d94b7f35ca1124171dd1c759fa9d6c9d2e",
+        "version": "1.0.8",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Levi Helper",
+    "description": "Auto-prays against leviathan and more",
+    "id": "lucid-levi-helper",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "6e964dc8133f86078796954f5790c5690d0051a95529844d486d0c953cca8cab78993d3f2b4f5a9932b1d53f67b1269fdd46697796206088edb8583290dc8228",
+        "version": "1.0.2",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-levi-helper-1.0.2.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Muspah",
+    "description": "Helper plugin for the Phantom Muspah",
+    "id": "lucid-muspah",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "4c6e7a098bbe9a152026b234435351faf61f9546df41e2820345c8f196628373351914b847ba6d1407547447f413582e398bb6198e3b39f94396215359f6f61c",
+        "version": "1.0.6",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-muspah-1.0.6.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Scurrius Helper",
+    "description": "Dodges Scurrius\u0027 falling ceiling attack and re-attacks",
+    "id": "lucid-scurrius-helper",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "f4868b32338266247f95b0e70a649a7c597af82902dc284471394198bdc16a6c3fae0a4bdffb3153dc60b98f7156be7f72f8bf05d74c26575771c18bdd74e442",
+        "version": "1.0.2",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-scurrius-helper-1.0.2.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Spices",
+    "description": "A plugin to help you gather spices for stews and not kill your cat in the process",
+    "id": "lucid-spices",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "67dc897c3bb2e7b407c7c67f28d475ccd85157fbeadeca35b96bcfc3b26489f8015a0ee742180f07772797439a281e916c80ad4e73102324e9701d5bfb0a859d",
+        "version": "1.0.6",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-spices-1.0.6.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
     "name": "Lucid ToB Prayers",
     "description": "Helps with prayers (and tick-eating sote ball) at ToB",
     "id": "lucid-tob-prayers",
@@ -139,6 +251,38 @@
         "sha512sum": "dfe68ff2fbfd99c0c0e69faaff19e2cde7c97c508a0c34dfad539c66e957b06235256c3b46d863179064734e07986c77da3f167f76ce29bdcd97f652b29c00a1",
         "version": "1.0.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-tob-prayers-1.0.0.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Vardorvis Helper",
+    "description": "Helps with Vardorvis fight",
+    "id": "lucid-vardorvis-helper",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "c1def0fe4bef9bc85a754b53a56151524e69d799d31f3085bacadecdcc6791be7e8781daa644ad13da17acce4698cdb7a558f60b0b58f5418ce4303335e77cb2",
+        "version": "1.0.7",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-vardorvis-helper-1.0.7.jar?raw\u003dtrue",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Whisperer Helper",
+    "description": "Auto-prays against whisperer and more",
+    "id": "lucid-whisperer-helper",
+    "releases": [
+      {
+        "date": "18-06-2025",
+        "sha512sum": "d18f4cf129f4319e5d4a0adcdf78b80a50bb29e2fd3daae10de2067a1b8ab2830811b80d08646c95e27cc71300977beee35ae226d74810d693bfbdb5c432e7ce",
+        "version": "1.0.3",
+        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-whisperer-helper-1.0.3.jar?raw\u003dtrue",
         "requires": "^1.0.0"
       }
     ]

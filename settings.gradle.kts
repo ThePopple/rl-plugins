@@ -8,7 +8,8 @@ val ignoredFolders = arrayOf(
     "buildSrc",
     "config",
     "gradle",
-    "release"
+    "release",
+    "example-plugin-kt",
     );
 
 for (file in rootProject.projectDir.listFiles()?.filter { it.isDirectory && it.name !in ignoredFolders }!!) {

@@ -1,5 +1,131 @@
 [
   {
+    "name": "AoE Warnings",
+    "id": "aoewarnings",
+    "description": "Shows the final destination for AoE Attack projectiles",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "6.0.0",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/aoewarnings-6.0.0.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Cannon Reloader",
+    "id": "lucid-cannon-reloader",
+    "description": "A plugin that will reload your cannon so you don\u0027t have to",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.0.6",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-cannon-reloader-1.0.6.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Combat",
+    "id": "lucid-combat",
+    "description": "Helps with Combat related stuff",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.1.6",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-combat-1.1.6.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Custom Prayers",
+    "id": "lucid-custom-prayers",
+    "description": "Set up auto prayers based on various event IDs",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "2.1.10",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-custom-prayers-2.1.10.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Disable Rendering",
+    "id": "lucid-disable-rendering",
+    "description": "Disabled rendering graphics on the client while plugin is enabled.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-disable-rendering-1.0.1.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Duke Helper",
+    "id": "lucid-duke-helper",
+    "description": "Auto-prayers and other helper features and overlays for Duke Succ",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-duke-helper-1.0.0.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Gear Swapper",
+    "id": "lucid-gear-swapper",
+    "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "2.3.2",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-gear-swapper-2.3.2.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid Hotkeys 1",
+    "id": "lucid-hotkeys",
+    "description": "Setup hotkeys that can do a variety of different actions.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.3.0",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-hotkeys-1.3.0.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
+    "name": "Lucid ToB Prayers",
+    "id": "lucid-tob-prayers",
+    "description": "Helps with prayers (and tick-eating sote ball) at ToB",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/lucid-tob-prayers-1.0.0.jar",
+        "date": "17-06-2025"
+      }
+    ]
+  },
+  {
     "name": "Popple\u0027s Demonic helper",
     "id": "popple-demonic-helper",
     "description": "",

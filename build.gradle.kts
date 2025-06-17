@@ -97,7 +97,7 @@ allprojects {
 
 tasks {
     register<DefaultTask>("release") {
-        dependsOn("build")
+        dependsOn(subprojects.map { it.tasks.named("build") })
 
         doLast {
             // Create the release directory

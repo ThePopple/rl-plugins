@@ -142,7 +142,7 @@ tasks {
                         "releases" to listOf(
                             mapOf(
                                 "version" to project.version.toString(),
-                                "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar",
+                                "url" to "https://github.com/ThePopple/rl-plugins/blob/master/release/${project.name}-${project.version}.jar?raw=true",
                                 "date" to SimpleDateFormat("dd-MM-yyyy").format(Date())
                             )
                         )

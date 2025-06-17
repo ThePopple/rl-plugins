@@ -91,61 +91,67 @@ allprojects {
             fileMode = 420
         }
 
-        register<DefaultTask>("release") {
-            outputs.upToDateWhen { false }
+
+    }
+}
+
+tasks {
+    register<DefaultTask>("release") {
+        dependsOn("build")
+
+        doLast {
+            // Create the release directory
+            val releaseDir = rootProject.projectDir.resolve("release")
+            println("Release directory: ${releaseDir.absolutePath}")
+
+            if (releaseDir.exists()) {
+                releaseDir.listFiles()?.forEach { it.delete() }
+                println("Cleared existing release directory")
+            } else {
+                releaseDir.mkdirs()
+                println("Created new release directory")
+            }
+
+            // Move the JARs
+            subprojects.forEach { project ->
+                println("-".repeat(20))
+                println("Processing project: ${project.name}")
+                project.tasks.withType(Jar::class.java).forEach { jarTask ->
+                    val jarFile = jarTask.archiveFile.get().asFile
+                    println("Found jar: ${jarFile.absolutePath} (exists: ${jarFile.exists()})")
+                    if (jarFile.exists()) {
+                        val targetFile = releaseDir.resolve(jarFile.name)
+                        println("Copying to: ${targetFile.absolutePath}")
+                        Files.copy(jarFile.toPath(), targetFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
+                    }
+                }
+            }
+
+            // Create plugins.json
+            val pluginsFile = rootProject.projectDir.resolve("plugins.json")
+            val plugins = mutableListOf<Map<String, Any>>()
 
             subprojects.forEach { project ->
-                dependsOn("${project.path}:build")
-            }
-
-            doLast {
-                // Create the release directory
-                val releaseDir = rootProject.projectDir.resolve("release")
-
-                if (releaseDir.exists()) {
-                    releaseDir.listFiles()?.forEach { it.delete() }
-                } else {
-                    releaseDir.mkdirs()
-                }
-
-                // Move the JARs
-                subprojects.forEach { project ->
-                    project.tasks.withType(Jar::class.java).forEach { jarTask ->
-                        val jarFile = jarTask.archiveFile.get().asFile
-                        if (jarFile.exists()) {
-                            val targetFile = releaseDir.resolve(jarFile.name)
-                            Files.move(jarFile.toPath(), targetFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
-                        }
-                    }
-                }
-
-                // Create plugins.json
-                val pluginsFile = rootProject.projectDir.resolve("plugins.json")
-                val plugins = mutableListOf<Map<String, Any>>()
-
-                subprojects.forEach { project ->
-                    println(project.name)
-                    if (project.properties.containsKey("PluginName") && project.properties.containsKey("PluginDescription")) {
-                        val plugin: Map<String, Any> = mapOf(
-                            "name" to (project.extra["PluginName"] as String),
-                            "id" to project.name.lowercase(),
-                            "description" to (project.extra["PluginDescription"] as String),
-                            "provider" to (project.extra["PluginProvider"] as String),
-                            "projectUrl" to "",
-                            "releases" to listOf(
-                                mapOf(
-                                    "version" to project.version.toString(),
-                                    "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar",
-                                    "date" to SimpleDateFormat("dd-MM-yyyy").format(Date())
-                                )
+                if (project.properties.containsKey("PluginName") && project.properties.containsKey("PluginDescription")) {
+                    val plugin: Map<String, Any> = mapOf(
+                        "name" to (project.extra["PluginName"] as String),
+                        "id" to project.name.lowercase(),
+                        "description" to (project.extra["PluginDescription"] as String),
+                        "provider" to (project.extra["PluginProvider"] as String),
+                        "projectUrl" to "",
+                        "releases" to listOf(
+                            mapOf(
+                                "version" to project.version.toString(),
+                                "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar",
+                                "date" to SimpleDateFormat("dd-MM-yyyy").format(Date())
                             )
                         )
-                        plugins.add(plugin)
-                    }
+                    )
+                    plugins.add(plugin)
                 }
-
-                pluginsFile.writeText(GsonBuilder().setPrettyPrinting().create().toJson(plugins))
             }
+
+            pluginsFile.writeText(GsonBuilder().setPrettyPrinting().create().toJson(plugins))
         }
     }
 }

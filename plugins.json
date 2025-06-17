@@ -84,20 +84,6 @@
     ]
   },
   {
-    "name": "Popple Nex",
-    "id": "popple-nex",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
-    "projectUrl": "",
-    "releases": [
-      {
-        "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-nex-0.0.1.jar",
-        "date": "17-06-2025"
-      }
-    ]
-  },
-  {
     "name": "Popple\u0027s potion mixer",
     "id": "popple-potion-mixer",
     "description": "What it says on the tin.",

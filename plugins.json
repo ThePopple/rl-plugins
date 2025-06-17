@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Popple\u0027s Demonic helper",
+    "id": "popple-demonic-helper",
+    "description": "",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-demonic-helper-0.0.1.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple\u0027s gem buyer",
+    "id": "popple-gem-buyer",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.2",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-buyer-0.0.2.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple\u0027s gem cutter",
+    "id": "popple-gem-cutter",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.2",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-cutter-0.0.2.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple hydra",
+    "id": "popple-hydra",
+    "description": "",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-hydra-0.0.1.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple Kraken",
+    "id": "popple-kraken",
+    "description": "",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-kraken-0.0.1.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple Mole",
+    "id": "popple-mole",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-mole-0.0.1.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple Nex",
+    "id": "popple-nex",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-nex-0.0.1.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple\u0027s potion mixer",
+    "id": "popple-potion-mixer",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.2",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-potion-mixer-0.0.2.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple\u0027s runecrafter",
+    "id": "popple-runecrafter",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.3",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-runecrafter-0.0.3.jar"
+      }
+    ]
+  },
+  {
+    "name": "Popple\u0027s jug buyer",
+    "id": "popple-water-jugs",
+    "description": "What it says on the tin.",
+    "provider": "popple-plugins",
+    "projectUrl": "",
+    "releases": [
+      {
+        "version": "0.0.1",
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-water-jugs-0.0.1.jar"
+      }
+    ]
+  }
+]

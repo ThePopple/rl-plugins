@@ -1,6 +1,7 @@
 import ProjectVersions.unethicaliteVersion
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
+import com.google.gson.GsonBuilder
 
 buildscript {
     repositories {
@@ -88,19 +89,22 @@ allprojects {
             fileMode = 420
         }
 
-        register("release") {
-            // Define a task dependency on the clean and build tasks of each subproject
+        register<DefaultTask>("release") {
             subprojects.forEach { project ->
                 dependsOn("${project.path}:build")
-//                finalizedBy("${project.path}:clean")
             }
 
             doLast {
-                // Create the release directory in the root project directory if it doesn't exist
+                // Create the release directory
                 val releaseDir = rootProject.projectDir.resolve("release")
-                releaseDir.mkdirs()
 
-                // Move the JARs of each child project to the release directory
+                if (releaseDir.exists()) {
+                    releaseDir.listFiles()?.forEach { it.delete() }
+                } else {
+                    releaseDir.mkdirs()
+                }
+
+                // Move the JARs
                 subprojects.forEach { project ->
                     project.tasks.withType(Jar::class.java).forEach { jarTask ->
                         val jarFile = jarTask.archiveFile.get().asFile
@@ -110,6 +114,32 @@ allprojects {
                         }
                     }
                 }
+
+                // Create plugins.json
+                val pluginsFile = rootProject.projectDir.resolve("plugins.json")
+                val plugins = mutableListOf<Map<String, Any>>()
+
+                subprojects.forEach { project ->
+                    println(project.name)
+                    if (project.properties.containsKey("PluginName") && project.properties.containsKey("PluginDescription")) {
+                        val plugin: Map<String, Any> = mapOf(
+                            "name" to (project.extra["PluginName"] as String),
+                            "id" to project.name.lowercase(),
+                            "description" to (project.extra["PluginDescription"] as String),
+                            "provider" to (project.extra["PluginProvider"] as String),
+                            "projectUrl" to "",
+                            "releases" to listOf(
+                                mapOf(
+                                    "version" to project.version.toString(),
+                                    "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar"
+                                )
+                            )
+                        )
+                        plugins.add(plugin)
+                    }
+                }
+
+                pluginsFile.writeText(GsonBuilder().setPrettyPrinting().create().toJson(plugins))
             }
         }
     }

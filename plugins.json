@@ -1,253 +1,289 @@
 [
   {
-    "name": "AoE Warnings",
-    "id": "aoewarnings",
-    "description": "Shows the final destination for AoE Attack projectiles",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "AoE Warnings",
+    "description": "Shows the final destination for AoE Attack projectiles",
+    "id": "aoewarnings",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "091b6b6b9161ba7888c1bb992eecd92fd42341a2389c2b357b53a0aa825de039b722616307cfa83a2585aa61fb6ac4bb0868212894a697be659c719daac7f0d9",
         "version": "6.0.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/aoewarnings-6.0.0.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Cannon Reloader",
-    "id": "lucid-cannon-reloader",
-    "description": "A plugin that will reload your cannon so you don\u0027t have to",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Cannon Reloader",
+    "description": "A plugin that will reload your cannon so you don\u0027t have to",
+    "id": "lucid-cannon-reloader",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "4b8027013c294f139a3aeed5a2924a27715d8b157393a45fd1a2fdcf73a96bbe7be5cd13ce2f77d3da61374c009e008cdeb5732fe0ecb1f33668f27c37f10f35",
         "version": "1.0.6",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-cannon-reloader-1.0.6.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Combat",
-    "id": "lucid-combat",
-    "description": "Helps with Combat related stuff",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Combat",
+    "description": "Helps with Combat related stuff",
+    "id": "lucid-combat",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "a5e07d202e99d294493195d8ad325fb73033a0e6e868883a23675ae3cfeffe9820ada78f6efad67202064cd6455d1436c6c1291d2501c8211f0d6f3f8d92bc1d",
         "version": "1.1.6",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-combat-1.1.6.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Custom Prayers",
-    "id": "lucid-custom-prayers",
-    "description": "Set up auto prayers based on various event IDs",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Custom Prayers",
+    "description": "Set up auto prayers based on various event IDs",
+    "id": "lucid-custom-prayers",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "7a704b9971e9fe3f96c7386e4deb86b87b4da42080ec845f2a062d29d55892ebba9ff71dbf0b2a588cedaa7f64a8250bf82e7f309e0169967c1ed5ae2afa24b0",
         "version": "2.1.10",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-custom-prayers-2.1.10.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Disable Rendering",
-    "id": "lucid-disable-rendering",
-    "description": "Disabled rendering graphics on the client while plugin is enabled.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Disable Rendering",
+    "description": "Disabled rendering graphics on the client while plugin is enabled.",
+    "id": "lucid-disable-rendering",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "83589433543d02cecdf179bf0ca74f9fe6aac21be4de388078450abe23ccc1dfb758e811dd7f8e126ba9c67ec92f815075c3d3b5256931754013378aaaa6d96b",
         "version": "1.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-disable-rendering-1.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Duke Helper",
-    "id": "lucid-duke-helper",
-    "description": "Auto-prayers and other helper features and overlays for Duke Succ",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Duke Helper",
+    "description": "Auto-prayers and other helper features and overlays for Duke Succ",
+    "id": "lucid-duke-helper",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "bad2ae5c5eec1677c34a6a3d8c89fba06c3baebade754996fb625e58a7107980a47d76f8c2462cb2212ff6ccd4e188a7d83b1bf156db09de581c3d6242612b7f",
         "version": "1.0.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-duke-helper-1.0.0.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Gear Swapper",
-    "id": "lucid-gear-swapper",
-    "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Gear Swapper",
+    "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
+    "id": "lucid-gear-swapper",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "57b253760f1c7d624bb09e5581ca1641b8a11b354e9a27e3081dbb17a6d9c6b65cf463a6776650be6d0a99027d6b962086bd30a943d2c73f6b6cf63ccabfb421",
         "version": "2.3.2",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-gear-swapper-2.3.2.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid Hotkeys 1",
-    "id": "lucid-hotkeys",
-    "description": "Setup hotkeys that can do a variety of different actions.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid Hotkeys 1",
+    "description": "Setup hotkeys that can do a variety of different actions.",
+    "id": "lucid-hotkeys",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "fa735f4bc9be626073e1f5783a958a40233d29df4037c29935149ce4473a6dcb8f99d4f4fd72f6a6fd67a1608df69cdd345ad010d1c49f94d71c6275cc9a417a",
         "version": "1.3.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys-1.3.0.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Lucid ToB Prayers",
-    "id": "lucid-tob-prayers",
-    "description": "Helps with prayers (and tick-eating sote ball) at ToB",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Lucid ToB Prayers",
+    "description": "Helps with prayers (and tick-eating sote ball) at ToB",
+    "id": "lucid-tob-prayers",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "dfe68ff2fbfd99c0c0e69faaff19e2cde7c97c508a0c34dfad539c66e957b06235256c3b46d863179064734e07986c77da3f167f76ce29bdcd97f652b29c00a1",
         "version": "1.0.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-tob-prayers-1.0.0.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s Demonic helper",
-    "id": "popple-demonic-helper",
-    "description": "",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s Demonic helper",
+    "description": "",
+    "id": "popple-demonic-helper",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "87a293457494b2e5c2f7d4a9560c34ca1ef689c3310c2d665fc594e0ad77e0558f9a58b7529e57bd667e1ae0d78c110be10e4986c57a8ad5b9ebaf80a4a35b04",
         "version": "0.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-demonic-helper-0.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s gem buyer",
-    "id": "popple-gem-buyer",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s gem buyer",
+    "description": "What it says on the tin.",
+    "id": "popple-gem-buyer",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "fca02e6c5438a0f2bcfc59f8baab09431453c77d27f59ff757c7913437089b49eabc292d03641431f13db1bf0f3ca844f83e778e56750a536eba820493660f88",
         "version": "0.0.2",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-buyer-0.0.2.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s gem cutter",
-    "id": "popple-gem-cutter",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s gem cutter",
+    "description": "What it says on the tin.",
+    "id": "popple-gem-cutter",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "1a2bbdf76eb22ed6fd658b0bfa055de27582659796e299a82d15da82f4337ba883a14fe5d68c16306fc8b396968130d21526d4a9b68a979ae1e9bcd4af417442",
         "version": "0.0.2",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.2.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple hydra",
-    "id": "popple-hydra",
-    "description": "",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple hydra",
+    "description": "",
+    "id": "popple-hydra",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "5e344e14d6d32729cea0971b6cc677a0fb3964db628267dc3388b721f176edad4af8e4a33cce65b23b4ef677bc1f0a4479bef20ba533e979551d5bdd1a2d407a",
         "version": "0.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-hydra-0.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple Kraken",
-    "id": "popple-kraken",
-    "description": "",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple Kraken",
+    "description": "",
+    "id": "popple-kraken",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "129b3f8fdca43e593053dc4d2cf4c338198085bba97fff87b7106a665f7f7e136a14c77b88363b674893c60bb0653a0d49c5607a71d26275dbdcdc4c26fb2931",
         "version": "0.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-kraken-0.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple Mole",
-    "id": "popple-mole",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple Mole",
+    "description": "What it says on the tin.",
+    "id": "popple-mole",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "823eba007fb0e3d6ae0af72470b9b37cf8a6146b354683f1cb3957d8b4e908b523937bbe5418828000b373ad5896c72912bbd7b1747e0ca7b89a744102333ff7",
         "version": "0.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-mole-0.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s potion mixer",
-    "id": "popple-potion-mixer",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s potion mixer",
+    "description": "What it says on the tin.",
+    "id": "popple-potion-mixer",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "79bedf14161d1add2f344e908665b742645252598418324ef8902c3a105ef35e29f7305abb0ced19519c8a327e56edb711cba5e42e32a652ae546e5fb858f023",
         "version": "0.0.2",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-potion-mixer-0.0.2.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s runecrafter",
-    "id": "popple-runecrafter",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s runecrafter",
+    "description": "What it says on the tin.",
+    "id": "popple-runecrafter",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "c03fedada88e14ad616f3c7494d95b150c2d4119353e9a0c98b4666238ebb75d199336b78140442ca0829e4c598161938bfa9934144a4da6be86262cf92bc459",
         "version": "0.0.3",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-runecrafter-0.0.3.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   },
   {
-    "name": "Popple\u0027s jug buyer",
-    "id": "popple-water-jugs",
-    "description": "What it says on the tin.",
-    "provider": "popple-plugins",
     "projectUrl": "",
+    "provider": "popple-plugins",
+    "name": "Popple\u0027s jug buyer",
+    "description": "What it says on the tin.",
+    "id": "popple-water-jugs",
     "releases": [
       {
+        "date": "18-06-2025",
+        "sha512sum": "8dc6b30457f9d08e6cff70ffc0d00c20acc73c4e9b75cee1191724b2d4105cf53f2e4750ab3885e2545f768f562b00559e9c81a94db6c3f23da5c0eb83d19cee",
         "version": "0.0.1",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-water-jugs-0.0.1.jar?raw\u003dtrue",
-        "date": "17-06-2025"
+        "requires": "^1.0.0"
       }
     ]
   }

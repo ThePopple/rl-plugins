@@ -1,9 +1,10 @@
 import ProjectVersions.unethicaliteVersion
+import com.google.gson.GsonBuilder
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
-import com.google.gson.GsonBuilder
+import java.security.MessageDigest
 import java.text.SimpleDateFormat
-import java.util.Date
+import java.util.*
 
 buildscript {
     repositories {
@@ -134,16 +135,22 @@ tasks {
             subprojects.forEach { project ->
                 if (project.properties.containsKey("PluginName") && project.properties.containsKey("PluginDescription")) {
                     val plugin: Map<String, Any> = mapOf(
-                        "name" to (project.extra["PluginName"] as String),
-                        "id" to project.name.lowercase(),
-                        "description" to (project.extra["PluginDescription"] as String),
-                        "provider" to (project.extra["PluginProvider"] as String),
                         "projectUrl" to "",
+                        "provider" to (project.extra["PluginProvider"] as String),
+                        "name" to (project.extra["PluginName"] as String),
+                        "description" to (project.extra["PluginDescription"] as String),
+                        "id" to project.name.lowercase(),
                         "releases" to listOf(
                             mapOf(
+                                "date" to SimpleDateFormat("dd-MM-yyyy").format(Date()),
+                                "sha512sum" to MessageDigest.getInstance("SHA-512").digest(
+                                    project.tasks.named("jar", Jar::class.java)
+                                        .get().archiveFile.get().asFile.readBytes()
+                                ).joinToString("") { b -> "%02x".format(b) },
+
                                 "version" to project.version.toString(),
                                 "url" to "https://github.com/ThePopple/rl-plugins/blob/master/release/${project.name}-${project.version}.jar?raw=true",
-                                "date" to SimpleDateFormat("dd-MM-yyyy").format(Date())
+                                "requires" to "^1.0.0"
                             )
                         )
                     )

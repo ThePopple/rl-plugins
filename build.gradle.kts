@@ -2,6 +2,8 @@ import ProjectVersions.unethicaliteVersion
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import com.google.gson.GsonBuilder
+import java.text.SimpleDateFormat
+import java.util.Date
 
 buildscript {
     repositories {
@@ -90,6 +92,8 @@ allprojects {
         }
 
         register<DefaultTask>("release") {
+            outputs.upToDateWhen { false }
+
             subprojects.forEach { project ->
                 dependsOn("${project.path}:build")
             }
@@ -131,7 +135,8 @@ allprojects {
                             "releases" to listOf(
                                 mapOf(
                                     "version" to project.version.toString(),
-                                    "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar"
+                                    "url" to "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/${project.name}-${project.version}.jar",
+                                    "date" to SimpleDateFormat("dd-MM-yyyy").format(Date())
                                 )
                             )
                         )

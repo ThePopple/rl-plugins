@@ -8,7 +8,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-demonic-helper-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-demonic-helper-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -21,7 +22,8 @@
     "releases": [
       {
         "version": "0.0.2",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-buyer-0.0.2.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-buyer-0.0.2.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -34,7 +36,8 @@
     "releases": [
       {
         "version": "0.0.2",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-cutter-0.0.2.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-gem-cutter-0.0.2.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -47,7 +50,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-hydra-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-hydra-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -60,7 +64,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-kraken-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-kraken-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -73,7 +78,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-mole-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-mole-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -86,7 +92,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-nex-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-nex-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -99,7 +106,8 @@
     "releases": [
       {
         "version": "0.0.2",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-potion-mixer-0.0.2.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-potion-mixer-0.0.2.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -112,7 +120,8 @@
     "releases": [
       {
         "version": "0.0.3",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-runecrafter-0.0.3.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-runecrafter-0.0.3.jar",
+        "date": "17-06-2025"
       }
     ]
   },
@@ -125,7 +134,8 @@
     "releases": [
       {
         "version": "0.0.1",
-        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-water-jugs-0.0.1.jar"
+        "url": "https://raw.githubusercontent.com/thepopple/popple-plugins/master/release/popple-water-jugs-0.0.1.jar",
+        "date": "17-06-2025"
       }
     ]
   }

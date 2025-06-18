@@ -33,38 +33,6 @@ public class GemBuyerPlugin extends Plugin {
 
     private final Logger log = Logger.getLogger(getName());
 
-    private static final Integer[] barrowsItems = List.of(
-            ItemID.DHAROKS_HELM,
-            ItemID.DHAROKS_PLATEBODY,
-            ItemID.DHAROKS_PLATELEGS,
-            ItemID.DHAROKS_GREATAXE,
-
-            ItemID.AHRIMS_HOOD,
-            ItemID.AHRIMS_ROBETOP,
-            ItemID.AHRIMS_ROBESKIRT,
-            ItemID.AHRIMS_STAFF,
-
-            ItemID.GUTHANS_HELM,
-            ItemID.GUTHANS_PLATEBODY,
-            ItemID.GUTHANS_CHAINSKIRT,
-            ItemID.GUTHANS_WARSPEAR,
-
-            ItemID.KARILS_COIF,
-            ItemID.KARILS_LEATHERTOP,
-            ItemID.KARILS_LEATHERSKIRT,
-            ItemID.BOLT_RACK,
-
-            ItemID.VERACS_HELM,
-            ItemID.VERACS_BRASSARD,
-            ItemID.VERACS_PLATESKIRT,
-            ItemID.VERACS_FLAIL,
-
-            ItemID.TORAGS_HELM,
-            ItemID.TORAGS_PLATEBODY,
-            ItemID.TORAGS_PLATELEGS,
-            ItemID.TORAGS_HAMMERS
-    ).toArray(new Integer[0]);
-
     @Provides
     GemBuyerConfig getConfig(final ConfigManager configManager) {
         return configManager.getConfig(GemBuyerConfig.class);

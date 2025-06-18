@@ -42,9 +42,8 @@ import static net.runelite.client.RuneLite.RUNELITE_DIR;
 
 @Extension
 @PluginDescriptor(
-        name = "Lucid Hotkeys 1",
+        name = "Lucid Hotkeys one",
         description = "Setup hotkeys that can do a variety of different actions.",
-        enabledByDefault = false,
         tags = {"hotkeys", "lucid"}
 )
 public class LucidHotkeysPlugin extends Plugin implements KeyListener
@@ -132,11 +131,6 @@ public class LucidHotkeysPlugin extends Plugin implements KeyListener
 
     @Override
     protected void startUp()
-    {
-        clientThread.invoke(this::pluginEnabled);
-    }
-
-    private void pluginEnabled()
     {
         log.info(getName() + " Started");
 

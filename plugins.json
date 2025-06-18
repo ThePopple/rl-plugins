@@ -250,10 +250,10 @@
   "provider": "popple-plugins",
   "name": "Popple's gem buyer",
   "description": "What it says on the tin.",
-  "id": "popplesgembuyer-plugin",
+  "id": "popplegb-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "9ED1DE6C18950FB221808F6B873AC2DE3310037E136F2567F4374DAD01778D84F6B44A778D132720535E5CCFC272CDE4F78C37D370B60F37AC5A593282935F89",
+    "sha512sum": "6BC65A6AC098CCB5FC88DB05EF169F5B7A010D10E2FAFA90137CCE8AA889261B057F2376B6768C7FF19A856BD204F8534723DE395FE797434E4BEF2810005B29",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-buyer-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -263,10 +263,10 @@
   "provider": "popple-plugins",
   "name": "Popple's gem cutter",
   "description": "What it says on the tin.",
-  "id": "popplesgemcutter-plugin",
+  "id": "popplegc-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "1A2BBDF76EB22ED6FD658B0BFA055DE27582659796E299A82D15DA82F4337BA883A14FE5D68C16306FC8B396968130D21526D4A9B68A979AE1E9BCD4AF417442",
+    "sha512sum": "E2083EDCD4A798A0D75BF85CE6023EEDB644BAB656A615B62760B0A510C1BD66297D67E0FC9816A60AD393970F783A29BD35EA6D7A4E91A4CF38E7FB42EAEE98",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -305,7 +305,7 @@
   "id": "popplemole-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "823EBA007FB0E3D6AE0AF72470B9B37CF8A6146B354683F1CB3957D8B4E908B523937BBE5418828000B373AD5896C72912BBD7B1747E0CA7B89A744102333FF7",
+    "sha512sum": "4F4BE1AC33587BBF02C1472B828A4261D54F659556090B52C3F3878F9372BA99D583A76B54BBEE791AD20836CF29C41C7DC0A8D89C4948B471A4CABCA3D483C3",
     "version": "0.0.1",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-mole-0.0.1.jar?raw=true",
     "requires": "^1.0.0"
@@ -315,10 +315,10 @@
   "provider": "popple-plugins",
   "name": "Popple's potion mixer",
   "description": "What it says on the tin.",
-  "id": "popplespotionmixer-plugin",
+  "id": "popplepots-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "79BEDF14161D1ADD2F344E908665B742645252598418324EF8902C3A105EF35E29F7305ABB0CED19519C8A327E56EDB711CBA5E42E32A652AE546E5FB858F023",
+    "sha512sum": "C60216E8F97728CC1D332D1AFB1FE0AB7172237F33E10F2CBF423478F98F8C4D965EFF5C83875763D3F447B043D99B77879FF29C9BBF151407D8F722C835BB05",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-potion-mixer-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -328,10 +328,10 @@
   "provider": "popple-plugins",
   "name": "Popple's runecrafter",
   "description": "What it says on the tin.",
-  "id": "popplesrunecrafter-plugin",
+  "id": "popplerc-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "D83A41CF0B671DD892658F690BAABD4818AD5653F45B0183126354BFCB85482C5A7208CA3A99ED2CF9AE37017E71985443C92D6CE4AA6044B04B6BB12EBCA9F1",
+    "sha512sum": "CB226F0546D179DC812D58E3EE68B2659FC358308178E7197A18D3240A6326701A2783BA5414AA33ED9089229438AE70A2E1EFD50260F32A1B7BD4EDC81C984D",
     "version": "0.0.3",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-runecrafter-0.0.3.jar?raw=true",
     "requires": "^1.0.0"
@@ -341,10 +341,10 @@
   "provider": "popple-plugins",
   "name": "Popple's jug buyer",
   "description": "What it says on the tin.",
-  "id": "popple-water-jugs",
+  "id": "popplejug-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "8DC6B30457F9D08E6CFF70FFC0D00C20ACC73C4E9B75CEE1191724B2D4105CF53F2E4750AB3885E2545F768F562B00559E9C81A94DB6C3F23DA5C0EB83D19CEE",
+    "sha512sum": "795CA295B1F11EE23E88E21EA7A50F73F16B3D3A1019355BAFD5F45FD30B90D96AD37A2B98FCE356664AC38EA244A3AB8AD515EE6B4A35FA1064759BD95CD072",
     "version": "0.0.1",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-water-jugs-0.0.1.jar?raw=true",
     "requires": "^1.0.0"

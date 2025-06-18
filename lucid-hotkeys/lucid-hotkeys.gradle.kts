@@ -1,7 +1,6 @@
 version = "1.3.0"
-group = "com.lucidplugins"
 
-project.extra["PluginName"] = "Lucid Hotkeys 1"
+project.extra["PluginName"] = "Lucid Hotkeys one"
 project.extra["PluginDescription"] = "Setup hotkeys that can do a variety of different actions."
 
 tasks {

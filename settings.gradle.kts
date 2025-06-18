@@ -10,6 +10,7 @@ val ignoredFolders = arrayOf(
     "gradle",
     "release",
     "example-plugin-kt",
+    "lucid-api",
     );
 
 for (file in rootProject.projectDir.listFiles()?.filter { it.isDirectory && it.name !in ignoredFolders }!!) {

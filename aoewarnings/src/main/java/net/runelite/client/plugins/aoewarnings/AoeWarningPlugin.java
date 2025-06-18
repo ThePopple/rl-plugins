@@ -39,6 +39,7 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
 import org.apache.commons.lang3.ArrayUtils;
+import org.pf4j.Extension;
 
 import javax.inject.Inject;
 import java.time.Instant;
@@ -49,6 +50,7 @@ import java.util.Set;
 
 import static net.runelite.client.plugins.aoewarnings.AoeWarningConfig.VorkathMode;
 
+@Extension
 @PluginDescriptor(
 	name = "AoE Warnings",
 	enabledByDefault = false,

@@ -6,22 +6,9 @@
   "id": "aoewarnings-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "091B6B6B9161BA7888C1BB992EECD92FD42341A2389C2B357B53A0AA825DE039B722616307CFA83A2585AA61FB6AC4BB0868212894A697BE659C719DAAC7F0D9",
+    "sha512sum": "713DE21CF52E419B3E49CA74A5DEDBF7F04A398F23BEC354443B6A5B4E493DE6C79E695C25EAC1518D6E6F160671B4615188A06F36AE8ECA8F7C6A8521E8B583",
     "version": "6.0.0",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/aoewarnings-6.0.0.jar?raw=true",
-    "requires": "^1.0.0"
-  }]
-}, {
-  "projectUrl": "https://github.com/ThePopple/rl-plugins",
-  "provider": "popple-plugins",
-  "name": "Lucid API",
-  "description": "API Plugin for all Lucid Plugins. Used as a wrapper to support multiple client APIs",
-  "id": "lucidapi-plugin",
-  "releases": [{
-    "date": "2025-06-18",
-    "sha512sum": "19B1D3BB6C88587752BF40C3F6F04B45801D013AEF1E10C3D8BDFC92E277A9478D5CB56D24F23053FC7C8E5B2599AF0E266A1A67DEB1BA7FBC072199D2D9970A",
-    "version": "0.0.1",
-    "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-api-0.0.1.jar?raw=true",
     "requires": "^1.0.0"
   }]
 }, {

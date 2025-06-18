@@ -16,12 +16,12 @@ import org.pf4j.Extension
 import java.util.logging.Logger
 import javax.inject.Inject
 
+@Extension
 @PluginDescriptor(
     name = "<html><font color=\"#ff0000\">Popple's runecrafter</font></html>",
     description = "What it says on the tin.",
     enabledByDefault = false
 )
-@Extension
 class RunecrafterPlugin : Plugin() {
     @Inject
     lateinit var client: Client

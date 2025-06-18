@@ -408,7 +408,7 @@
     "releases": [
       {
         "date": "18-06-2025",
-        "sha512sum": "c03fedada88e14ad616f3c7494d95b150c2d4119353e9a0c98b4666238ebb75d199336b78140442ca0829e4c598161938bfa9934144a4da6be86262cf92bc459",
+        "sha512sum": "d83a41cf0b671dd892658f690baabd4818ad5653f45b0183126354bfcb85482c5a7208ca3a99ed2cf9ae37017e71985443c92d6ce4aa6044b04b6bb12ebca9f1",
         "version": "0.0.3",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-runecrafter-0.0.3.jar?raw\u003dtrue",
         "requires": "^1.0.0"

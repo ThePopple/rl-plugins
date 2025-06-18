@@ -24,8 +24,6 @@ apply<BootstrapPlugin>()
 //apply<CheckstylePlugin>()
 
 allprojects {
-    group = "com.poppleplugins"
-
     project.extra["PluginProvider"] = "popple-plugins"
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
@@ -38,18 +36,12 @@ allprojects {
         mavenCentral()
         mavenLocal()
         jcenter()
-//        maven {
-//            url = uri("https://repo.runelite.net")
-//        }
     }
 
 
     dependencies {
         annotationProcessor(Libraries.lombok)
         annotationProcessor(Libraries.pf4j)
-
-//        compileOnly(files("C:/Users/Jack/.vulcan/repository2/runelite-api-1.10.44.jar"))
-//        compileOnly(files("C:/Users/Jack/.vulcan/repository2/client-1.10.44.jar"))
 
         compileOnly("net.unethicalite:http-api:$unethicaliteVersion+")
         compileOnly("net.unethicalite:runelite-api:$unethicaliteVersion+")
@@ -63,7 +55,6 @@ allprojects {
         compileOnly(Libraries.lombok)
         compileOnly(Libraries.pf4j)
         compileOnly(Libraries.apacheCommonsText)
-//        compileOnly(files("client.jar"))
     }
 
     configure<JavaPluginConvention> {
@@ -93,71 +84,5 @@ allprojects {
         }
 
 
-    }
-}
-
-tasks {
-    register<DefaultTask>("release") {
-        dependsOn(subprojects.map { it.tasks.named("build") })
-
-        doLast {
-            // Create the release directory
-            val releaseDir = rootProject.projectDir.resolve("release")
-            println("Release directory: ${releaseDir.absolutePath}")
-
-            if (releaseDir.exists()) {
-                releaseDir.listFiles()?.forEach { it.delete() }
-                println("Cleared existing release directory")
-            } else {
-                releaseDir.mkdirs()
-                println("Created new release directory")
-            }
-
-            // Move the JARs
-            subprojects.forEach { project ->
-                println("-".repeat(20))
-                println("Processing project: ${project.name}")
-                project.tasks.withType(Jar::class.java).forEach { jarTask ->
-                    val jarFile = jarTask.archiveFile.get().asFile
-                    println("Found jar: ${jarFile.absolutePath} (exists: ${jarFile.exists()})")
-                    if (jarFile.exists()) {
-                        val targetFile = releaseDir.resolve(jarFile.name)
-                        println("Copying to: ${targetFile.absolutePath}")
-                        Files.copy(jarFile.toPath(), targetFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
-                    }
-                }
-            }
-
-            // Create plugins.json
-            val pluginsFile = rootProject.projectDir.resolve("plugins.json")
-            val plugins = mutableListOf<Map<String, Any>>()
-
-            subprojects.forEach { project ->
-                if (project.properties.containsKey("PluginName") && project.properties.containsKey("PluginDescription")) {
-                    val plugin: Map<String, Any> = mapOf(
-                        "projectUrl" to "",
-                        "provider" to (project.extra["PluginProvider"] as String),
-                        "name" to (project.extra["PluginName"] as String),
-                        "description" to (project.extra["PluginDescription"] as String),
-                        "id" to project.name.lowercase(),
-                        "releases" to listOf(
-                            mapOf(
-                                "date" to SimpleDateFormat("dd-MM-yyyy").format(Date()),
-                                "sha512sum" to MessageDigest.getInstance("SHA-512").digest(
-                                    releaseDir.resolve("${project.name}-${project.version}.jar").readBytes()
-                                ).joinToString("") { b -> "%02x".format(b) },
-
-                                "version" to project.version.toString(),
-                                "url" to "https://github.com/ThePopple/rl-plugins/blob/master/release/${project.name}-${project.version}.jar?raw=true",
-                                "requires" to "^1.0.0"
-                            )
-                        )
-                    )
-                    plugins.add(plugin)
-                }
-            }
-
-            pluginsFile.writeText(GsonBuilder().setPrettyPrinting().create().toJson(plugins))
-        }
     }
 }

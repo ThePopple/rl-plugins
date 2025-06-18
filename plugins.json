@@ -1,434 +1,383 @@
-[
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "AoE Warnings",
-    "description": "Shows the final destination for AoE Attack projectiles",
-    "id": "aoewarnings",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "091b6b6b9161ba7888c1bb992eecd92fd42341a2389c2b357b53a0aa825de039b722616307cfa83a2585aa61fb6ac4bb0868212894a697be659c719daac7f0d9",
-        "version": "6.0.0",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/aoewarnings-6.0.0.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid API",
-    "description": "API Plugin for all Lucid Plugins. Used as a wrapper to support multiple client APIs",
-    "id": "lucid-api",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "19b1d3bb6c88587752bf40c3f6f04b45801d013aef1e10c3d8bdfc92e277a9478d5cb56d24f23053fc7c8e5b2599af0e266a1a67deb1ba7fbc072199d2d9970a",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-api-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Cannon Reloader",
-    "description": "A plugin that will reload your cannon so you don\u0027t have to",
-    "id": "lucid-cannon-reloader",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "4b8027013c294f139a3aeed5a2924a27715d8b157393a45fd1a2fdcf73a96bbe7be5cd13ce2f77d3da61374c009e008cdeb5732fe0ecb1f33668f27c37f10f35",
-        "version": "1.0.6",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-cannon-reloader-1.0.6.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Combat",
-    "description": "Helps with Combat related stuff",
-    "id": "lucid-combat",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "a5e07d202e99d294493195d8ad325fb73033a0e6e868883a23675ae3cfeffe9820ada78f6efad67202064cd6455d1436c6c1291d2501c8211f0d6f3f8d92bc1d",
-        "version": "1.1.6",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-combat-1.1.6.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Custom Prayers",
-    "description": "Set up auto prayers based on various event IDs",
-    "id": "lucid-custom-prayers",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "7a704b9971e9fe3f96c7386e4deb86b87b4da42080ec845f2a062d29d55892ebba9ff71dbf0b2a588cedaa7f64a8250bf82e7f309e0169967c1ed5ae2afa24b0",
-        "version": "2.1.10",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-custom-prayers-2.1.10.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Disable Rendering",
-    "description": "Disabled rendering graphics on the client while plugin is enabled.",
-    "id": "lucid-disable-rendering",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "83589433543d02cecdf179bf0ca74f9fe6aac21be4de388078450abe23ccc1dfb758e811dd7f8e126ba9c67ec92f815075c3d3b5256931754013378aaaa6d96b",
-        "version": "1.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-disable-rendering-1.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Duke Helper",
-    "description": "Auto-prayers and other helper features and overlays for Duke Succ",
-    "id": "lucid-duke-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "bad2ae5c5eec1677c34a6a3d8c89fba06c3baebade754996fb625e58a7107980a47d76f8c2462cb2212ff6ccd4e188a7d83b1bf156db09de581c3d6242612b7f",
-        "version": "1.0.0",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-duke-helper-1.0.0.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Gauntlet",
-    "description": "Gauntlet Extended by xKylee updated with auto-features for Hunllef added in.",
-    "id": "lucid-gauntlet",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "a835ff56fae0031fcac49ee6d5333725211404e8f5068a0a7bb52e2bee1c004b3383aa55509a5e590b54b7f2145ad837c1e0ce944d9d67f7849f6e1fbcfafb80",
-        "version": "6.2.6",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-gauntlet-6.2.6.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Gear Swapper",
-    "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
-    "id": "lucid-gear-swapper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "57b253760f1c7d624bb09e5581ca1641b8a11b354e9a27e3081dbb17a6d9c6b65cf463a6776650be6d0a99027d6b962086bd30a943d2c73f6b6cf63ccabfb421",
-        "version": "2.3.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-gear-swapper-2.3.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Hotkeys 1",
-    "description": "Setup hotkeys that can do a variety of different actions.",
-    "id": "lucid-hotkeys",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "54247ebc39fca8f13039b30738c9ec1bdb3667bc29785ebfca7d0a68c469ae62dacbce51b2f37a14f1710f259acca067a1a1caf85fd2e3327cd6f53241dc1834",
-        "version": "1.3.0",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys-1.3.0.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Hotkeys 2",
-    "description": "Like Lucid Hotkeys 1, but much better",
-    "id": "lucid-hotkeys2",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "49dcd7e389ca000a5d058c4de7c82ec065c36726aba0d90bf51bc4529f5c9952dee799b2394e2cc0a04c0311ce5ed5d94b7f35ca1124171dd1c759fa9d6c9d2e",
-        "version": "1.0.8",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Levi Helper",
-    "description": "Auto-prays against leviathan and more",
-    "id": "lucid-levi-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "6e964dc8133f86078796954f5790c5690d0051a95529844d486d0c953cca8cab78993d3f2b4f5a9932b1d53f67b1269fdd46697796206088edb8583290dc8228",
-        "version": "1.0.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-levi-helper-1.0.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Muspah",
-    "description": "Helper plugin for the Phantom Muspah",
-    "id": "lucid-muspah",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "4c6e7a098bbe9a152026b234435351faf61f9546df41e2820345c8f196628373351914b847ba6d1407547447f413582e398bb6198e3b39f94396215359f6f61c",
-        "version": "1.0.6",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-muspah-1.0.6.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Scurrius Helper",
-    "description": "Dodges Scurrius\u0027 falling ceiling attack and re-attacks",
-    "id": "lucid-scurrius-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "f4868b32338266247f95b0e70a649a7c597af82902dc284471394198bdc16a6c3fae0a4bdffb3153dc60b98f7156be7f72f8bf05d74c26575771c18bdd74e442",
-        "version": "1.0.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-scurrius-helper-1.0.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Spices",
-    "description": "A plugin to help you gather spices for stews and not kill your cat in the process",
-    "id": "lucid-spices",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "67dc897c3bb2e7b407c7c67f28d475ccd85157fbeadeca35b96bcfc3b26489f8015a0ee742180f07772797439a281e916c80ad4e73102324e9701d5bfb0a859d",
-        "version": "1.0.6",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-spices-1.0.6.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid ToB Prayers",
-    "description": "Helps with prayers (and tick-eating sote ball) at ToB",
-    "id": "lucid-tob-prayers",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "dfe68ff2fbfd99c0c0e69faaff19e2cde7c97c508a0c34dfad539c66e957b06235256c3b46d863179064734e07986c77da3f167f76ce29bdcd97f652b29c00a1",
-        "version": "1.0.0",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-tob-prayers-1.0.0.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Vardorvis Helper",
-    "description": "Helps with Vardorvis fight",
-    "id": "lucid-vardorvis-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "c1def0fe4bef9bc85a754b53a56151524e69d799d31f3085bacadecdcc6791be7e8781daa644ad13da17acce4698cdb7a558f60b0b58f5418ce4303335e77cb2",
-        "version": "1.0.7",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-vardorvis-helper-1.0.7.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Lucid Whisperer Helper",
-    "description": "Auto-prays against whisperer and more",
-    "id": "lucid-whisperer-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "d18f4cf129f4319e5d4a0adcdf78b80a50bb29e2fd3daae10de2067a1b8ab2830811b80d08646c95e27cc71300977beee35ae226d74810d693bfbdb5c432e7ce",
-        "version": "1.0.3",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-whisperer-helper-1.0.3.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s Demonic helper",
-    "description": "",
-    "id": "popple-demonic-helper",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "87a293457494b2e5c2f7d4a9560c34ca1ef689c3310c2d665fc594e0ad77e0558f9a58b7529e57bd667e1ae0d78c110be10e4986c57a8ad5b9ebaf80a4a35b04",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-demonic-helper-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s gem buyer",
-    "description": "What it says on the tin.",
-    "id": "popple-gem-buyer",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "9ed1de6c18950fb221808f6b873ac2de3310037e136f2567f4374dad01778d84f6b44a778d132720535e5ccfc272cde4f78c37d370b60f37ac5a593282935f89",
-        "version": "0.0.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-buyer-0.0.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s gem cutter",
-    "description": "What it says on the tin.",
-    "id": "popple-gem-cutter",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "1a2bbdf76eb22ed6fd658b0bfa055de27582659796e299a82d15da82f4337ba883a14fe5d68c16306fc8b396968130d21526d4a9b68a979ae1e9bcd4af417442",
-        "version": "0.0.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple hydra",
-    "description": "",
-    "id": "popple-hydra",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "5e344e14d6d32729cea0971b6cc677a0fb3964db628267dc3388b721f176edad4af8e4a33cce65b23b4ef677bc1f0a4479bef20ba533e979551d5bdd1a2d407a",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-hydra-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple Kraken",
-    "description": "",
-    "id": "popple-kraken",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "129b3f8fdca43e593053dc4d2cf4c338198085bba97fff87b7106a665f7f7e136a14c77b88363b674893c60bb0653a0d49c5607a71d26275dbdcdc4c26fb2931",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-kraken-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple Mole",
-    "description": "What it says on the tin.",
-    "id": "popple-mole",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "823eba007fb0e3d6ae0af72470b9b37cf8a6146b354683f1cb3957d8b4e908b523937bbe5418828000b373ad5896c72912bbd7b1747e0ca7b89a744102333ff7",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-mole-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s potion mixer",
-    "description": "What it says on the tin.",
-    "id": "popple-potion-mixer",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "79bedf14161d1add2f344e908665b742645252598418324ef8902c3a105ef35e29f7305abb0ced19519c8a327e56edb711cba5e42e32a652ae546e5fb858f023",
-        "version": "0.0.2",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-potion-mixer-0.0.2.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s runecrafter",
-    "description": "What it says on the tin.",
-    "id": "popple-runecrafter",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "d83a41cf0b671dd892658f690baabd4818ad5653f45b0183126354bfcb85482c5a7208ca3a99ed2cf9ae37017e71985443c92d6ce4aa6044b04b6bb12ebca9f1",
-        "version": "0.0.3",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-runecrafter-0.0.3.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  },
-  {
-    "projectUrl": "",
-    "provider": "popple-plugins",
-    "name": "Popple\u0027s jug buyer",
-    "description": "What it says on the tin.",
-    "id": "popple-water-jugs",
-    "releases": [
-      {
-        "date": "18-06-2025",
-        "sha512sum": "8dc6b30457f9d08e6cff70ffc0d00c20acc73c4e9b75cee1191724b2d4105cf53f2e4750ab3885e2545f768f562b00559e9c81a94db6c3f23da5c0eb83d19cee",
-        "version": "0.0.1",
-        "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-water-jugs-0.0.1.jar?raw\u003dtrue",
-        "requires": "^1.0.0"
-      }
-    ]
-  }
-]
+[{
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "AoE Warnings",
+  "description": "Shows the final destination for AoE Attack projectiles",
+  "id": "aoewarnings-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "091B6B6B9161BA7888C1BB992EECD92FD42341A2389C2B357B53A0AA825DE039B722616307CFA83A2585AA61FB6AC4BB0868212894A697BE659C719DAAC7F0D9",
+    "version": "6.0.0",
+    "url": "dud/blob/master/release/aoewarnings-6.0.0.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid API",
+  "description": "API Plugin for all Lucid Plugins. Used as a wrapper to support multiple client APIs",
+  "id": "lucidapi-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "19B1D3BB6C88587752BF40C3F6F04B45801D013AEF1E10C3D8BDFC92E277A9478D5CB56D24F23053FC7C8E5B2599AF0E266A1A67DEB1BA7FBC072199D2D9970A",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/lucid-api-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Cannon Reloader",
+  "description": "A plugin that will reload your cannon so you don't have to",
+  "id": "lucidcannonreloader-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "4B8027013C294F139A3AEED5A2924A27715D8B157393A45FD1A2FDCF73A96BBE7BE5CD13CE2F77D3DA61374C009E008CDEB5732FE0ECB1F33668F27C37F10F35",
+    "version": "1.0.6",
+    "url": "dud/blob/master/release/lucid-cannon-reloader-1.0.6.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Combat",
+  "description": "Helps with Combat related stuff",
+  "id": "lucidcombat-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "A5E07D202E99D294493195D8AD325FB73033A0E6E868883A23675AE3CFEFFE9820ADA78F6EFAD67202064CD6455D1436C6C1291D2501C8211F0D6F3F8D92BC1D",
+    "version": "1.1.6",
+    "url": "dud/blob/master/release/lucid-combat-1.1.6.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Custom Prayers",
+  "description": "Set up auto prayers based on various event IDs",
+  "id": "lucidcustomprayers-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "7A704B9971E9FE3F96C7386E4DEB86B87B4DA42080EC845F2A062D29D55892EBBA9FF71DBF0B2A588CEDAA7F64A8250BF82E7F309E0169967C1ED5AE2AFA24B0",
+    "version": "2.1.10",
+    "url": "dud/blob/master/release/lucid-custom-prayers-2.1.10.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Disable Rendering",
+  "description": "Disabled rendering graphics on the client while plugin is enabled.",
+  "id": "luciddisablerendering-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "83589433543D02CECDF179BF0CA74F9FE6AAC21BE4DE388078450ABE23CCC1DFB758E811DD7F8E126BA9C67EC92F815075C3D3B5256931754013378AAAA6D96B",
+    "version": "1.0.1",
+    "url": "dud/blob/master/release/lucid-disable-rendering-1.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Duke Helper",
+  "description": "Auto-prayers and other helper features and overlays for Duke Succ",
+  "id": "luciddukehelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "BAD2AE5C5EEC1677C34A6A3D8C89FBA06C3BAEBADE754996FB625E58A7107980A47D76F8C2462CB2212FF6CCD4E188A7D83B1BF156DB09DE581C3D6242612B7F",
+    "version": "1.0.0",
+    "url": "dud/blob/master/release/lucid-duke-helper-1.0.0.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Gauntlet",
+  "description": "Gauntlet Extended by xKylee updated with auto-features for Hunllef added in.",
+  "id": "lucidgauntlet-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "A835FF56FAE0031FCAC49EE6D5333725211404E8F5068A0A7BB52E2BEE1C004B3383AA55509A5E590B54B7F2145AD837C1E0CE944D9D67F7849F6E1FBCFAFB80",
+    "version": "6.2.6",
+    "url": "dud/blob/master/release/lucid-gauntlet-6.2.6.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Gear Swapper",
+  "description": "Set-up up an unlimited amount of custom gear swaps with customizable hotkeys or trigger them via weapon equip",
+  "id": "lucidgearswapper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "57B253760F1C7D624BB09E5581CA1641B8A11B354E9A27E3081DBB17A6D9C6B65CF463A6776650BE6D0A99027D6B962086BD30A943D2C73F6B6CF63CCABFB421",
+    "version": "2.3.2",
+    "url": "dud/blob/master/release/lucid-gear-swapper-2.3.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Hotkeys 2",
+  "description": "Like Lucid Hotkeys 1, but much better",
+  "id": "lucidhotkeys-plugin",
+  "releases": [
+    {
+      "date": "2025-06-18",
+      "sha512sum": "54247EBC39FCA8F13039B30738C9EC1BDB3667BC29785EBFCA7D0A68C469AE62DACBCE51B2F37A14F1710F259ACCA067A1A1CAF85FD2E3327CD6F53241DC1834",
+      "version": "1.3.0",
+      "url": "dud/blob/master/release/lucid-hotkeys-1.3.0.jar?raw=true",
+      "requires": "^1.0.0"
+    },
+    {
+      "date": "2025-06-18",
+      "sha512sum": "49DCD7E389CA000A5D058C4DE7C82EC065C36726ABA0D90BF51BC4529F5C9952DEE799B2394E2CC0A04C0311CE5ED5D94B7F35CA1124171DD1C759FA9D6C9D2E",
+      "version": "1.0.8",
+      "url": "dud/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw=true",
+      "requires": "^1.0.0"
+    }
+  ]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Hotkeys 2",
+  "description": "Like Lucid Hotkeys 1, but much better",
+  "id": "lucidhotkeys-plugin",
+  "releases": [
+    {
+      "date": "2025-06-18",
+      "sha512sum": "54247EBC39FCA8F13039B30738C9EC1BDB3667BC29785EBFCA7D0A68C469AE62DACBCE51B2F37A14F1710F259ACCA067A1A1CAF85FD2E3327CD6F53241DC1834",
+      "version": "1.3.0",
+      "url": "dud/blob/master/release/lucid-hotkeys-1.3.0.jar?raw=true",
+      "requires": "^1.0.0"
+    },
+    {
+      "date": "2025-06-18",
+      "sha512sum": "49DCD7E389CA000A5D058C4DE7C82EC065C36726ABA0D90BF51BC4529F5C9952DEE799B2394E2CC0A04C0311CE5ED5D94B7F35CA1124171DD1C759FA9D6C9D2E",
+      "version": "1.0.8",
+      "url": "dud/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw=true",
+      "requires": "^1.0.0"
+    }
+  ]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Hotkeys 2",
+  "description": "Like Lucid Hotkeys 1, but much better",
+  "id": "lucidhotkeys-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "49DCD7E389CA000A5D058C4DE7C82EC065C36726ABA0D90BF51BC4529F5C9952DEE799B2394E2CC0A04C0311CE5ED5D94B7F35CA1124171DD1C759FA9D6C9D2E",
+    "version": "1.0.8",
+    "url": "dud/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Levi Helper",
+  "description": "Auto-prays against leviathan and more",
+  "id": "lucidlevihelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "6E964DC8133F86078796954F5790C5690D0051A95529844D486D0C953CCA8CAB78993D3F2B4F5A9932B1D53F67B1269FDD46697796206088EDB8583290DC8228",
+    "version": "1.0.2",
+    "url": "dud/blob/master/release/lucid-levi-helper-1.0.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Muspah",
+  "description": "Helper plugin for the Phantom Muspah",
+  "id": "lucidmuspah-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "4C6E7A098BBE9A152026B234435351FAF61F9546DF41E2820345C8F196628373351914B847BA6D1407547447F413582E398BB6198E3B39F94396215359F6F61C",
+    "version": "1.0.6",
+    "url": "dud/blob/master/release/lucid-muspah-1.0.6.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Scurrius Helper",
+  "description": "Dodges Scurrius' falling ceiling attack and re-attacks",
+  "id": "lucidscurriushelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "F4868B32338266247F95B0E70A649A7C597AF82902DC284471394198BDC16A6C3FAE0A4BDFFB3153DC60B98F7156BE7F72F8BF05D74C26575771C18BDD74E442",
+    "version": "1.0.2",
+    "url": "dud/blob/master/release/lucid-scurrius-helper-1.0.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Spices",
+  "description": "A plugin to help you gather spices for stews and not kill your cat in the process",
+  "id": "lucidspices-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "67DC897C3BB2E7B407C7C67F28D475CCD85157FBEADECA35B96BCFC3B26489F8015A0EE742180F07772797439A281E916C80AD4E73102324E9701D5BFB0A859D",
+    "version": "1.0.6",
+    "url": "dud/blob/master/release/lucid-spices-1.0.6.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid ToB Prayers",
+  "description": "Helps with prayers (and tick-eating sote ball) at ToB",
+  "id": "lucidtobprayers-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "DFE68FF2FBFD99C0C0E69FAAFF19E2CDE7C97C508A0C34DFAD539C66E957B06235256C3B46D863179064734E07986C77DA3F167F76CE29BDCD97F652B29C00A1",
+    "version": "1.0.0",
+    "url": "dud/blob/master/release/lucid-tob-prayers-1.0.0.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Vardorvis Helper",
+  "description": "Helps with Vardorvis fight",
+  "id": "lucidvardorvishelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "C1DEF0FE4BEF9BC85A754B53A56151524E69D799D31F3085BACADECDCC6791BE7E8781DAA644AD13DA17ACCE4698CDB7A558F60B0B58F5418CE4303335E77CB2",
+    "version": "1.0.7",
+    "url": "dud/blob/master/release/lucid-vardorvis-helper-1.0.7.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Lucid Whisperer Helper",
+  "description": "Auto-prays against whisperer and more",
+  "id": "lucidwhispererhelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "D18F4CF129F4319E5D4A0ADCDF78B80A50BB29E2FD3DAAE10DE2067A1B8AB2830811B80D08646C95E27CC71300977BEEE35AE226D74810D693BFBDB5C432E7CE",
+    "version": "1.0.3",
+    "url": "dud/blob/master/release/lucid-whisperer-helper-1.0.3.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's Demonic helper",
+  "description": "",
+  "id": "popplesdemonichelper-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "87A293457494B2E5C2F7D4A9560C34CA1EF689C3310C2D665FC594E0AD77E0558F9A58B7529E57BD667E1AE0D78C110BE10E4986C57A8AD5B9EBAF80A4A35B04",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/popple-demonic-helper-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's gem buyer",
+  "description": "What it says on the tin.",
+  "id": "popplesgembuyer-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "9ED1DE6C18950FB221808F6B873AC2DE3310037E136F2567F4374DAD01778D84F6B44A778D132720535E5CCFC272CDE4F78C37D370B60F37AC5A593282935F89",
+    "version": "0.0.2",
+    "url": "dud/blob/master/release/popple-gem-buyer-0.0.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's gem cutter",
+  "description": "What it says on the tin.",
+  "id": "popplesgemcutter-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "1A2BBDF76EB22ED6FD658B0BFA055DE27582659796E299A82D15DA82F4337BA883A14FE5D68C16306FC8B396968130D21526D4A9B68A979AE1E9BCD4AF417442",
+    "version": "0.0.2",
+    "url": "dud/blob/master/release/popple-gem-cutter-0.0.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple hydra",
+  "description": "",
+  "id": "popplehydra-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "5E344E14D6D32729CEA0971B6CC677A0FB3964DB628267DC3388B721F176EDAD4AF8E4A33CCE65B23B4EF677BC1F0A4479BEF20BA533E979551D5BDD1A2D407A",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/popple-hydra-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple Kraken",
+  "description": "",
+  "id": "popplekraken-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "129B3F8FDCA43E593053DC4D2CF4C338198085BBA97FFF87B7106A665F7F7E136A14C77B88363B674893C60BB0653A0D49C5607A71D26275DBDCDC4C26FB2931",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/popple-kraken-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple Mole",
+  "description": "What it says on the tin.",
+  "id": "popplemole-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "823EBA007FB0E3D6AE0AF72470B9B37CF8A6146B354683F1CB3957D8B4E908B523937BBE5418828000B373AD5896C72912BBD7B1747E0CA7B89A744102333FF7",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/popple-mole-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's potion mixer",
+  "description": "What it says on the tin.",
+  "id": "popplespotionmixer-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "79BEDF14161D1ADD2F344E908665B742645252598418324EF8902C3A105EF35E29F7305ABB0CED19519C8A327E56EDB711CBA5E42E32A652AE546E5FB858F023",
+    "version": "0.0.2",
+    "url": "dud/blob/master/release/popple-potion-mixer-0.0.2.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's runecrafter",
+  "description": "What it says on the tin.",
+  "id": "popplesrunecrafter-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "D83A41CF0B671DD892658F690BAABD4818AD5653F45B0183126354BFCB85482C5A7208CA3A99ED2CF9AE37017E71985443C92D6CE4AA6044B04B6BB12EBCA9F1",
+    "version": "0.0.3",
+    "url": "dud/blob/master/release/popple-runecrafter-0.0.3.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}, {
+  "projectUrl": "dud",
+  "provider": "popple-plugins",
+  "name": "Popple's jug buyer",
+  "description": "What it says on the tin.",
+  "id": "popplesjugbuyer-plugin",
+  "releases": [{
+    "date": "2025-06-18",
+    "sha512sum": "8DC6B30457F9D08E6CFF70FFC0D00C20ACC73C4E9B75CEE1191724B2D4105CF53F2E4750AB3885E2545F768F562B00559E9C81A94DB6C3F23DA5C0EB83D19CEE",
+    "version": "0.0.1",
+    "url": "dud/blob/master/release/popple-water-jugs-0.0.1.jar?raw=true",
+    "requires": "^1.0.0"
+  }]
+}]

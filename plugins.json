@@ -341,10 +341,10 @@
   "provider": "popple-plugins",
   "name": "Popple's jug buyer",
   "description": "What it says on the tin.",
-  "id": "popplejug-plugin",
+  "id": "popplesjugbuyer-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "795CA295B1F11EE23E88E21EA7A50F73F16B3D3A1019355BAFD5F45FD30B90D96AD37A2B98FCE356664AC38EA244A3AB8AD515EE6B4A35FA1064759BD95CD072",
+    "sha512sum": "8DC6B30457F9D08E6CFF70FFC0D00C20ACC73C4E9B75CEE1191724B2D4105CF53F2E4750AB3885E2545F768F562B00559E9C81A94DB6C3F23DA5C0EB83D19CEE",
     "version": "0.0.1",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-water-jugs-0.0.1.jar?raw=true",
     "requires": "^1.0.0"

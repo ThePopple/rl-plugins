@@ -118,12 +118,12 @@
 }, {
   "projectUrl": "https://github.com/ThePopple/rl-plugins",
   "provider": "popple-plugins",
-  "name": "Lucid Hotkeys one",
+  "name": "Lucid Hotkeys 1",
   "description": "Setup hotkeys that can do a variety of different actions.",
-  "id": "lucidhotkeysone-plugin",
+  "id": "lucidhotkeys1-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "9AE1B227B4B4B14AAD420797576DECD4F25990A89E9200E6051F5AD2DEAAC8FB4B1F38CBB2B28E2115909C0F36D2CC06FD323E8B90B7226380CFCB7161DF3862",
+    "sha512sum": "7E7256B4C8B35BB1C7AB0799F3179FD394CE78CD42D7F059EA5B33E52BFB75CA74DF9A82D2606113B771118FF5DB1B212FB7B13DDD61F2BB316A8CFBCB9FDEC6",
     "version": "1.3.0",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys-1.3.0.jar?raw=true",
     "requires": "^1.0.0"
@@ -131,12 +131,12 @@
 }, {
   "projectUrl": "https://github.com/ThePopple/rl-plugins",
   "provider": "popple-plugins",
-  "name": "Lucid Hotkeys two",
+  "name": "Lucid Hotkeys 2",
   "description": "Like Lucid Hotkeys 1, but much better",
-  "id": "lucidhotkeystwo-plugin",
+  "id": "lucidhotkeys2-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "A0DEDE92CD7D96ADF9BB95DACB56D660A6C464994A12E46AABA39CB3DB0422C5FD744DC3327CDBB7E9E6409D43827419D1C9B3F5DFFC97B01049F8C546C4D8FB",
+    "sha512sum": "01E9C4341EAB36F89C191292191CFE14E36F98E5A17833902E7DC00D632D8ECC3FEE0363F2CAADB4FB65399D7CC0FD5F55B87288B9E068F93922CDD992322B0E",
     "version": "1.0.8",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys2-1.0.8.jar?raw=true",
     "requires": "^1.0.0"

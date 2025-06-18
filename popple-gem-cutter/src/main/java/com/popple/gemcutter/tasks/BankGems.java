@@ -1,7 +1,7 @@
 package com.popple.gemcutter.tasks;
 
 import com.popple.gemcutter.Task;
-import com.popple.gemcutter.api.util.GameObjectUtils;
+import com.popple.gemcutter.api.Banks;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ItemID;
 import net.runelite.api.TileObject;
@@ -21,7 +21,7 @@ public class BankGems extends Task {
 
     @Override
     public void onGameTick(GameTick event) {
-        TileObject bank = GameObjectUtils.nearest(10583);
+        TileObject bank = Banks.Companion.findNearest();
 
         if (bank != null) {
             if (!Bank.isOpen()) {

@@ -252,10 +252,10 @@
   "description": "What it says on the tin.",
   "id": "popplesgemcutter-plugin",
   "releases": [{
-    "date": "2025-06-18",
-    "sha512sum": "8A92143CFF1C57D43541F6DF56DE143ED5DD3C69D7A7F5D4EF2914DADC946FD3D5E595BE73E83939BC7E7281AD87311462670B558D916F6DF4C7EED14A13A7B5",
-    "version": "0.0.2",
-    "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.2.jar?raw=true",
+    "date": "2025-06-19",
+    "sha512sum": "CB8CCAF0844F07310DBC6C8E588DAE4B0C9BEAF950DB92B98C0913030B8894633DA75BEECF24BEA95D76C351D058B8B37EB3BF93EE0CD5144C25C080511856CD",
+    "version": "0.0.3",
+    "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.3.jar?raw=true",
     "requires": "^1.0.0"
   }]
 }, {

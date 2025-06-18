@@ -14,7 +14,9 @@ public class CutGems extends Task {
 
     @Override
     public boolean validate() {
-        return Inventory.contains(ItemID.CHISEL) && Inventory.contains(config.gem().getID());
+        return Inventory.contains(ItemID.CHISEL)
+                && Inventory.contains(config.gem().getID())
+                && !client.getLocalPlayer().isAnimating();
     }
 
     @Override

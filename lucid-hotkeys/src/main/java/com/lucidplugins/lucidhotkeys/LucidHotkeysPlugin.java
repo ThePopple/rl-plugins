@@ -42,7 +42,7 @@ import static net.runelite.client.RuneLite.RUNELITE_DIR;
 
 @Extension
 @PluginDescriptor(
-        name = "Lucid Hotkeys one",
+        name = "Lucid Hotkeys 1",
         description = "Setup hotkeys that can do a variety of different actions.",
         tags = {"hotkeys", "lucid"}
 )

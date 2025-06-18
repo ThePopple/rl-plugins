@@ -152,7 +152,7 @@
     "releases": [
       {
         "date": "18-06-2025",
-        "sha512sum": "9ec8eb2cad100221d386669b1bf899558dd1e62ab72f2d1bcd94eb5011a9151654e14e971b1e3c066a752eac4db968b637484d9670d8960cfb04ad36a35b6c26",
+        "sha512sum": "13db2e6f4cf10333ff19f58af6e5101783f107572f3d81c7601738fe4bf7ea764edabf493b53ea99dae8fb1ecf2f759bad3b0367667d608f7dd3aa8311dac874",
         "version": "1.3.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys-1.3.0.jar?raw\u003dtrue",
         "requires": "^1.0.0"

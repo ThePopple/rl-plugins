@@ -250,10 +250,10 @@
   "provider": "popple-plugins",
   "name": "Popple's gem buyer",
   "description": "What it says on the tin.",
-  "id": "popplegb-plugin",
+  "id": "popplesgembuyer-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "6BC65A6AC098CCB5FC88DB05EF169F5B7A010D10E2FAFA90137CCE8AA889261B057F2376B6768C7FF19A856BD204F8534723DE395FE797434E4BEF2810005B29",
+    "sha512sum": "8575A35CBB563E50697E9782CDBCB6EC1EFA4AE1834B43ED12EC9DA6DC166C6E396F97A7B59C26AF74C6CCE054535D94C2E557FD3E0E2E921CAD5D5E95CC7D65",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-buyer-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -263,10 +263,10 @@
   "provider": "popple-plugins",
   "name": "Popple's gem cutter",
   "description": "What it says on the tin.",
-  "id": "popplegc-plugin",
+  "id": "popplesgemcutter-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "E2083EDCD4A798A0D75BF85CE6023EEDB644BAB656A615B62760B0A510C1BD66297D67E0FC9816A60AD393970F783A29BD35EA6D7A4E91A4CF38E7FB42EAEE98",
+    "sha512sum": "8A92143CFF1C57D43541F6DF56DE143ED5DD3C69D7A7F5D4EF2914DADC946FD3D5E595BE73E83939BC7E7281AD87311462670B558D916F6DF4C7EED14A13A7B5",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-cutter-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -315,10 +315,10 @@
   "provider": "popple-plugins",
   "name": "Popple's potion mixer",
   "description": "What it says on the tin.",
-  "id": "popplepots-plugin",
+  "id": "popplespotionmixer-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "C60216E8F97728CC1D332D1AFB1FE0AB7172237F33E10F2CBF423478F98F8C4D965EFF5C83875763D3F447B043D99B77879FF29C9BBF151407D8F722C835BB05",
+    "sha512sum": "42B1BEF801CFCE158B6F92F0D4B668D150A8CF61D9FF21B48F54F7DD4E35A29B5477D19FC4D66B0FE02E8AA45AB3DCBC4680789F33C33DBB670FAC7AF92DC2C4",
     "version": "0.0.2",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-potion-mixer-0.0.2.jar?raw=true",
     "requires": "^1.0.0"
@@ -328,10 +328,10 @@
   "provider": "popple-plugins",
   "name": "Popple's runecrafter",
   "description": "What it says on the tin.",
-  "id": "popplerc-plugin",
+  "id": "popplesrunecrafter-plugin",
   "releases": [{
     "date": "2025-06-18",
-    "sha512sum": "CB226F0546D179DC812D58E3EE68B2659FC358308178E7197A18D3240A6326701A2783BA5414AA33ED9089229438AE70A2E1EFD50260F32A1B7BD4EDC81C984D",
+    "sha512sum": "FD99B0A2A8D5FC1FC1485AEAB914E1351D651B097C52C9FF445CED5AC66BE6F020AD0588FC83078C09AB014834BA3060A633F836E263F7D9500418168F9B72F5",
     "version": "0.0.3",
     "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-runecrafter-0.0.3.jar?raw=true",
     "requires": "^1.0.0"

@@ -66,15 +66,9 @@ open class BootstrapTask : DefaultTask() {
                         )
                     )
 
-                    val id = if (it.project.extra.has("PluginId")) {
-                        it.project.extra.get("PluginId") as String
-                    } else {
-                        it.project.extra.get("PluginName") as String
-                    }
-
                     val pluginObject = JsonBuilder(
                         "name" to it.project.extra.get("PluginName"),
-                        "id" to nameToId(id),
+                        "id" to nameToId(it.project.extra.get("PluginName") as String),
                         "description" to it.project.extra.get("PluginDescription"),
                         "provider" to it.project.extra.get("PluginProvider"),
                         "projectUrl" to "https://github.com/ThePopple/rl-plugins",

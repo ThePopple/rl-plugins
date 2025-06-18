@@ -341,7 +341,7 @@
   "provider": "popple-plugins",
   "name": "Popple's jug buyer",
   "description": "What it says on the tin.",
-  "id": "popplesjugbuyer-plugin",
+  "id": "popple-water-jugs",
   "releases": [{
     "date": "2025-06-18",
     "sha512sum": "8DC6B30457F9D08E6CFF70FFC0D00C20ACC73C4E9B75CEE1191724B2D4105CF53F2E4750AB3885E2545F768F562B00559E9C81A94DB6C3F23DA5C0EB83D19CEE",

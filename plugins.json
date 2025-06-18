@@ -152,7 +152,7 @@
     "releases": [
       {
         "date": "18-06-2025",
-        "sha512sum": "fa735f4bc9be626073e1f5783a958a40233d29df4037c29935149ce4473a6dcb8f99d4f4fd72f6a6fd67a1608df69cdd345ad010d1c49f94d71c6275cc9a417a",
+        "sha512sum": "9ec8eb2cad100221d386669b1bf899558dd1e62ab72f2d1bcd94eb5011a9151654e14e971b1e3c066a752eac4db968b637484d9670d8960cfb04ad36a35b6c26",
         "version": "1.3.0",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/lucid-hotkeys-1.3.0.jar?raw\u003dtrue",
         "requires": "^1.0.0"
@@ -312,7 +312,7 @@
     "releases": [
       {
         "date": "18-06-2025",
-        "sha512sum": "fca02e6c5438a0f2bcfc59f8baab09431453c77d27f59ff757c7913437089b49eabc292d03641431f13db1bf0f3ca844f83e778e56750a536eba820493660f88",
+        "sha512sum": "e16ef887804caba4a8a4b47f37233c7456d69e6037362853388a3564e5c23d5616465fb2c3aa07d95240bc4aa85439ffae88099f68d3dfaa3a0e617f47c095c1",
         "version": "0.0.2",
         "url": "https://github.com/ThePopple/rl-plugins/blob/master/release/popple-gem-buyer-0.0.2.jar?raw\u003dtrue",
         "requires": "^1.0.0"

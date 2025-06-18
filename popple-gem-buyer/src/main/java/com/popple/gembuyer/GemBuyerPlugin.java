@@ -5,7 +5,6 @@ import com.popple.gembuyer.tasks.BankGems;
 import com.popple.gembuyer.tasks.BuyGems;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
-import net.runelite.api.ItemID;
 import net.runelite.api.Player;
 import net.runelite.api.events.ConfigButtonClicked;
 import net.runelite.api.events.GameTick;
@@ -17,7 +16,6 @@ import net.unethicalite.api.utils.MessageUtils;
 import org.pf4j.Extension;
 
 import javax.inject.Inject;
-import java.util.List;
 import java.util.logging.Logger;
 
 @Extension

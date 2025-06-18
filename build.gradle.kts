@@ -144,8 +144,7 @@ tasks {
                             mapOf(
                                 "date" to SimpleDateFormat("dd-MM-yyyy").format(Date()),
                                 "sha512sum" to MessageDigest.getInstance("SHA-512").digest(
-                                    project.tasks.named("jar", Jar::class.java)
-                                        .get().archiveFile.get().asFile.readBytes()
+                                    releaseDir.resolve("${project.name}-${project.version}.jar").readBytes()
                                 ).joinToString("") { b -> "%02x".format(b) },
 
                                 "version" to project.version.toString(),

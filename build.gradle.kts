@@ -1,10 +1,4 @@
 import ProjectVersions.unethicaliteVersion
-import com.google.gson.GsonBuilder
-import java.nio.file.Files
-import java.nio.file.StandardCopyOption
-import java.security.MessageDigest
-import java.text.SimpleDateFormat
-import java.util.*
 
 buildscript {
     repositories {

@@ -61,7 +61,7 @@ open class BootstrapTask : DefaultTask() {
                             "version" to it.project.version,
                             "requires" to ProjectVersions.apiVersion,
                             "date" to formatDate(Date()),
-                            "url" to "dud/blob/master/release/${it.project.name}-${it.project.version}.jar?raw=true",
+                            "url" to "https://github.com/ThePopple/rl-plugins/blob/master/release/${it.project.name}-${it.project.version}.jar?raw=true",
                             "sha512sum" to sha512
                         )
                     )
@@ -71,7 +71,7 @@ open class BootstrapTask : DefaultTask() {
                         "id" to nameToId(it.project.extra.get("PluginName") as String),
                         "description" to it.project.extra.get("PluginDescription"),
                         "provider" to it.project.extra.get("PluginProvider"),
-                        "projectUrl" to "dud",
+                        "projectUrl" to "https://github.com/ThePopple/rl-plugins",
                         "releases" to releases.toTypedArray()
                     ).jsonObject()
 
